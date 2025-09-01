@@ -1,17 +1,19 @@
-# Data Science Job Salary Analysis (2020–2022) 💼📊
+# Olympics Data Analysis and Prediction 🏅📊
 
-This project analyzes data science job salaries collected from **ai-jobs.net** spanning 2020 to 2022. It explores salary trends, distributions, and key insights to help job seekers and recruiters understand the market better. Additionally, a **Random Forest Regressor** model predicts salary based on job features, comparing actual vs predicted salaries.
+This project analyzes historical Olympics data to uncover meaningful insights and predict future outcomes. It performs Exploratory Data Analysis (EDA) to visualize trends, medal distributions, and country performances. A **Random Forest Regressor** is applied to predict key metrics with high accuracy.
 
-🔗 **Live App**: [data-science-job-salaries-analysis-j932eykhcappyzuuy8fkgeg/](data-science-job-salaries-analysis-j932eykhcappyzuuy8fkgeg/)
+🔗 **Live App**: [https://olympics-data-analysis-and-prediction.streamlit.app/](https://olympics-data-analysis-and-prediction.streamlit.app/)
 
 ---
 
 ## 🚀 Features
 
-- 📊 Interactive salary insights with summary statistics  
-- 📉 Visualizations powered by Plotly, seaborn, and matplotlib  
-- 🤖 Random Forest Regressor to predict salaries and evaluate performance  
-- 🖥️ User-friendly Streamlit UI for seamless exploration  
+- 📊 Comprehensive EDA with visualizations to explore Olympic data  
+- 🤖 Random Forest Regressor for prediction tasks  
+- 📈 Model performance:
+  - **R² Score:** 0.9897 (indicates excellent fit)
+  - **RMSE:** 0.0215 (very low error)
+- 🖥️ Interactive and user-friendly Streamlit UI  
 
 ---
 
@@ -20,6 +22,12 @@ This project analyzes data science job salaries collected from **ai-jobs.net** s
 - Python  
 - Streamlit  
 - pandas, numpy  
-- seaborn, matplotlib  
-- plotly  
+- seaborn, squarify  
 - scikit-learn (Random Forest Regressor)  
+- joblib  
+
+Predicted Graph Screenshot:
+![image](https://github.com/user-attachments/assets/94af2404-a44b-4708-a0e5-9d2e7a5a90bd)
+
+
+
